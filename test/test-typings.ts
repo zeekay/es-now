@@ -1,6 +1,6 @@
 // In real code, users will do
 // import now = require('performance-now');
-import now = require('../');
+import now = require('../lib/performance-now');
 
 // Declare a variable to have the type `number`.
 let num: number;

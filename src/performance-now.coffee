@@ -14,4 +14,4 @@ else if Date.now
   loadTime = Date.now()
 else
   module.exports = -> new Date().getTime() - loadTime
-  loadTime = new Date().getTime()
+loadTime = new Date().getTime()
